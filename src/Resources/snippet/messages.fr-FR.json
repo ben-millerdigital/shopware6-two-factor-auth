@@ -1,0 +1,18 @@
+{
+    "rl-2fa": {
+        "account": {
+            "disable": {
+                "title": "Désactiver l'authentification à deux facteurs",
+                "password": "Mot de passe"
+            },
+            "disable-2fa": "Désactiver l'authentification à deux facteurs",
+            "title": "Authentification à deux facteurs"
+        },
+        "login": {
+            "title": "Authentification à deux facteurs",
+            "cancel": "Annuler",
+            "proceed": "Connexion",
+            "code-placeholder": "Code"
+        }
+    }
+}
