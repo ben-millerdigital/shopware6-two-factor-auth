@@ -29,6 +29,7 @@ jobs:
                   fi
                   cp -r "./" "/plugins/${PLUGIN_NAME}"
                   start-mysql
+                  plugin-uploader ext:prepare /plugins/${PLUGIN_NAME}/
                   pack-plugin "${PLUGIN_NAME}"
             - name: Upload Artefact
               uses: actions/upload-artifact@v2
