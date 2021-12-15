@@ -9,5 +9,6 @@ jobs:
         uses: FriendsOfShopware/workflows/.github/workflows/github.yml@main
         with:
             extensionName: RuneLaenenTwoFactorAuth
+            shopwareVersion: 6.4.1
         secrets:
             ghToken: ${{ secrets.GITHUB_TOKEN }}
