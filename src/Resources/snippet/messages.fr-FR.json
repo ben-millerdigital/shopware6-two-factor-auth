@@ -9,9 +9,9 @@
         },
         "account": {
             "title": "Authentification à deux facteurs (2FA)",
-            "active": "Félicitations! Votre compte est actuellement protégé par l'authentification à deux facteurs!",
-            "not-active": "Votre compte n'est actuellement <strong>pas</strong> protégé par l'authentification à deux facteurs!",
-            "description": "Assurez-vous que votre compte de boutique en ligne est protégé en toute sécurité en ajoutant l'authentification à deux facteurs (2FA). Avec 2FA, votre compte est sécurisé en plusieurs couches: votre nom d'utilisateur, votre mot de passe et une nouvelle couche de «mot de passe à usage unique». Cette deuxième étape est ajoutée pour reconfirmer votre identité et associe votre compte à votre téléphone mobile. Cliquez sur le bouton ci-dessous pour commencer à configurer 2FA pour votre compte. C'est facile et gratuit!",
+            "active": "Félicitations ! Votre compte est actuellement protégé par l'authentification à deux facteurs !",
+            "not-active": "Votre compte n'est actuellement <strong>pas</strong> protégé par l'authentification à deux facteurs !",
+            "description": "Assurez-vous que votre compte de boutique en ligne est protégé en toute sécurité en ajoutant l'authentification à deux facteurs (2FA). Avec 2FA, votre compte est sécurisé en plusieurs couches : votre nom d'utilisateur, votre mot de passe et une nouvelle couche de «mot de passe à usage unique». Cette deuxième étape est ajoutée pour reconfirmer votre identité et associe votre compte à votre téléphone mobile. Cliquez sur le bouton ci-dessous pour commencer à configurer 2FA pour votre compte. C'est facile et gratuit !",
             "start-setup": "Configurer 2FA pour mon compte",
             "disable-2fa": "Désactiver l'authentification à deux facteurs",
             "disabled-2fa": "L'authentification à deux facteurs a été désactivée avec succès.",
