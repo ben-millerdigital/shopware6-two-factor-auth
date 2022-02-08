@@ -14,6 +14,7 @@ use Shopware\Storefront\Controller\StorefrontController;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Shopware\Core\Framework\Validation\DataBag\RequestDataBag;
 
 /**
  * @RouteScope(scopes={"storefront"})
@@ -77,7 +78,7 @@ class StorefrontTwoFactorAuthController extends StorefrontController
      */
     public function cancelVerification(Request $request, SalesChannelContext $context)
     {
-        $this->logoutRoute->logout($context);
+		$this->logoutRoute->logout($context, new RequestDataBag());
         $this->dispatcher->dispatch(new StorefrontTwoFactorCancelEvent($context));
 
         return $this->redirectToRoute('frontend.account.login.page');
